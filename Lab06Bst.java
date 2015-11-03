@@ -66,8 +66,10 @@ public class Lab06Bst extends Applet
         for (int count = 1; count <= 100; count++)
         {
             Expo.setRandomColor(g);
-            int x = Expo.random(15,230);
-            int y = Expo.random(335,635);
+            int x = Expo.random(15,200);
+            int y = Expo.random(345,635);
+            int q = Expo.random(1,30);
+            Expo.setFont(g,"Courier",Font.BOLD,q);
             Expo.drawString(g,"MM",x,y);
         }
 
